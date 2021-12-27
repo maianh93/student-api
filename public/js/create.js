@@ -38,7 +38,7 @@ saveBtnElement.addEventListener("click", () => {
         alert("Hãy nhập đủ thông tin!");
         return
     } else {
-        alert("Đã cập nhật thành công!");
+        alert("Đã thêm mới thành công!");
         let newUser = {
             // id: createId(),
             name: nameInputElement.value,
